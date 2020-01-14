@@ -1,0 +1,39 @@
+/**
+ *1. Initializer
+  2. Identifier
+  3. Assignment Operator
+  4. Value
+ 
+ */
+
+ const SIN = 12424214214
+ let shouldIDance
+//values can be added later
+ shouldIDance = false //boolean
+
+
+ let phone ="6478197045"
+
+ var lunchFood = "pizza"
+
+ var supper 
+ supper= "lasagna"
+
+ console.log(SIN, shouldIDance, phone, lunchFood, supper)
+
+
+ //Data Types
+ console.log(typeof phone)
+
+
+
+ //COMP 1231 Exercise Week 02 
+
+const Num =1234556778
+
+let WilliPass 
+WilliPass = true
+
+var FirstName = "Gerro"
+
+console.log(Num, WilliPass, FirstName)
