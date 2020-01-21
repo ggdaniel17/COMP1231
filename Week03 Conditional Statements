@@ -1,0 +1,33 @@
+let classTime = Math.floor(Math.random()*100);
+
+if(classTime <=25){
+    console.log(classTime,"The number was between 0 and 25")
+}
+else if(classTime >25 && classTime <=50){
+    console.log(classTime,"The number is between 26 and 50")
+}
+else if(classTime >50 && classTime <=99){
+    console.log(classTime,"The number is between 50 and 99")
+}
+else{
+    console.log("invalid")
+}
+
+const timeForSchool = false;
+const goToSchool = true;
+
+if (goToSchool) {
+     // if it is true this will be executed
+    console.log("Go to School");
+}
+else if (timeForSchool){
+    // if it is true then this code will be executed
+    // else if means that the the first if statement failed 
+    console.log("What time is school?")
+}
+else{
+    //the final block is executed when both value is is set to false
+    //else means that the if and else if statement both failed or are not the answer
+    console.log("NO SCHOOL FOR TODAY")
+}
+
